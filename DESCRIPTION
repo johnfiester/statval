@@ -1,0 +1,16 @@
+Package: statval
+Title: Validating Partitions
+Version: 0.0.1
+Authors@R: 
+    person(given = "John",
+           family = "Fiester",
+           role = c("aut", "cre"),
+           email = "johnsfiester@gmail.com")
+Description: Partitions data into training and testing sets at specified percentages. Partitions are then validated across all variables to obtain minimal discrepancy among training and test sets.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+	caret
