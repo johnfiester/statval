@@ -38,7 +38,7 @@ statval <- function(df, targetVar, split, pval){
       }
       else{
         
-        p.vals[i] <- kruskal.test(df[,i] ~ which, data = data.all)$p.value
+        p.vals[i] <- kruskal.test(data.all[,i] ~ which, data = data.all)$p.value
         
       }
     }
